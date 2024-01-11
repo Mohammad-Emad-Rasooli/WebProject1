@@ -1,0 +1,247 @@
+@font-face {
+    font-family: "Vazir";
+    src: url("../fonts/Vazir.eot");
+
+    src: url("../fonts/Vazir.eot#iefix") format("embedded-opentype"),
+        url("../fonts/Vazir.woff2") format("woff2"),
+        url("../fonts/Vazir.woff") format("woff"),
+        url("../fonts/Vazir.ttf") format("truetype");
+}
+
+body {
+    font-family: "Vazir" !important;
+}
+a{
+    text-decoration: none;
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    line-height: 1.8 !important;
+}
+
+/*Utilities*/
+.hover-grow{
+    transition: all 0.5s;
+}
+
+.hover-grow:hover{
+    transform: scale(1.1);
+}
+
+/* Header */
+.navbar {
+    transition: all 0.5s;
+    padding: 20px 0;
+}
+.header-scrolled {
+    background-color: #fff;
+    box-shadow: 0px 2px 20px rgb(112, 112, 112 , 0.5);
+}
+
+@media (max-width: 992px) {
+    .navbar {
+        background-color: #fff;
+    }
+}
+
+/* Intro */
+.intro {
+    width: 100%;
+    height: 100vh;
+    background: url('../images/intro/intro-bg.png') top center no-repeat;
+     background-size: cover;
+}
+
+/*About*/
+.content {
+    background-color: #f6f9ff;
+    padding: 40px
+}
+
+/* Counts */
+.counts i{
+    font-size: 42px;
+}
+.counts i.blue{
+    color: blue;
+}
+.counts i.orange{
+    color: orange;
+}
+.counts i.green{
+    color: green;
+}
+.counts i.red {
+    color: red;
+}
+
+
+/* Features */
+.features i{
+    font-size: 44px;
+    color: #4154f1;
+}
+
+/* Services */
+.services .service-box{
+    box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+    padding: 60px 30px;
+    text-align: center;
+    border-radius: 5px;
+    transition: all 0.3s;
+}
+.services .service-box .icon{
+    font-size: 36px;
+    padding: 20px;
+    line-height: 0;
+    display: inline-block;
+    border-radius: 4px;
+    
+}
+
+.services .service-box .read-more{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+}
+
+
+.services .service-box .read-more i{
+    font-size: 18px;
+    line-height: 0;
+    margin-right: 0.4rem;
+    padding: 0;
+}
+
+/*blue*/
+.services .service-box.blue{
+    border-bottom: 3px solid #2db6fa;
+}
+
+.services .service-box.blue .icon{
+    color: #2db6fa;
+    background: #dbf3fe;
+}
+
+.services .service-box.blue .read-more{
+    color: #2db6fa;
+    
+}
+
+.services .service-box.blue:hover {
+    background: #2db6fa;
+    color: #fff;
+}
+
+/*orange*/
+.services .service-box.orange{
+    border-bottom: 3px solid #f68c09;
+}
+
+.services .service-box.orange .icon{
+    color: #f68c09;
+    background: #fde3c4;
+}
+
+.services .service-box.orange .read-more{
+    color: #f68c09;
+    
+}
+.services .service-box.orange:hover {
+    background: #f68c09;
+    color: #fff;
+}
+
+/*green*/
+.services .service-box.green{
+    border-bottom: 3px solid #08da4e;
+}
+
+.services .service-box.green .icon{
+    color: #08da4e;
+    background: #cffddf;
+}
+
+.services .service-box.green .read-more{
+    color: #08da4e;
+    
+}
+.services .service-box.green:hover {
+    background: #08da4e;
+    color: #fff;
+}
+
+/* Pricing */
+.pricing .card {
+    transition: all 0.3s;
+}
+
+.pricing .card:hover {
+    transform: scale(1.1);
+}
+
+
+/*contact*/
+.contact .info-box {
+    background-color: #fafbff;
+    padding: 30px;
+}
+
+.contact .info-box i{
+    font-size: 38px;
+    line-height: 0;
+    color: #4154f1;
+}  
+
+.contact .info-box .cellphone{
+    direction: ltr;
+    text-align: right;
+}
+
+.contact .contact-form {
+    background-color: #fafbff;
+    padding: 30px;
+    height: 100%;
+}
+
+/*Footer*/
+.footer .social-link i{
+    font-size: 20px;
+    color: rgba(1, 41, 112, 0.5);
+}
+
+.footer hr{
+    width: 70%;
+    height: 5px;
+}
+
+.footer .footer-link a{
+    color: #000;
+}
+
+.footer .footer-link i{
+    font-size: 13px;
+}
+
+
+
+.services .service-box:hover .read-more{
+    color: #fff;
+}
+
+.services .service-box:hover .icon{
+    background-color: #fff;
+}
